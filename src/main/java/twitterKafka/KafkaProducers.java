@@ -35,10 +35,10 @@ public class KafkaProducers {
         BlockingQueue<String> msgQueue = new LinkedBlockingQueue<String>(100000);
 
         //create a twitter client
-        String consumerKey = "OWQe70B3YtV29eguTkE9kMGjR";
-        String consumerSecret = "WGO7Ko1Nzol1afpBN2rYRdRaEBUno2cQHVR41HfYy6oYX7CQSC";
-        String token = "1301970491696058368-gwhu9Y3CxEMDopJIb2j7XpiywxdC3w";
-        String secret = "B0Om4ixd4G5oVX7ucXJI1cs5qsKCdD0FgisnH4C8ZvXrV";
+        String consumerKey = "";
+        String consumerSecret = "";
+        String token = "";
+        String secret = "";
 
         Client client = createTwitterClient(msgQueue,consumerKey,consumerSecret,token,secret);
         client.connect();
