@@ -29,6 +29,8 @@ public class KafkaProducers {
 
 
     }
+    //this is awesome
+    //this is for testing
 
     private void run() {
         /** Set up your blocking queues: Be sure to size these properly based on expected TPS of your stream */
