@@ -122,7 +122,7 @@ public class KafkaProducers {
 
         Client hosebirdClient = builder.build();
         return hosebirdClient;
-        // Attempts to establish a connection.
+        // Attempts to establish a connection
     }
 
 }
